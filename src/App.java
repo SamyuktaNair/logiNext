@@ -59,9 +59,22 @@ public class App {
             }
         }
 
-        for (String r : res){
-            System.out.println(r);
-        }
+       printResults(res);
+
+       
 
     }
+
+
+    public static void printResults(List<String> results){
+        System.out.println("\n Delivery ...");
+        for (String r : results){
+            System.out.println(r);
+        }
+    }
+    
+    
 }
+
+
+
